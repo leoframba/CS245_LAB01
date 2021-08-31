@@ -22,7 +22,7 @@ public class CombinationSum {
         //Input candidates
         String input;
         String[] inputArray;
-        System.out.println("Input candidates separated by one or more spaces(Max: 10)");
+        System.out.println("Input candidates separated by one or more spaces:");
         input = rdr.nextLine();
         inputArray = input.split("\\s+");
         int[] candidates = new int[inputArray.length];
